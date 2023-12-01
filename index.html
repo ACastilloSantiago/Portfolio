@@ -13,15 +13,21 @@
   </head>
   <body>
     <main id="home" class="main">
-      <nav class="header">
-        <!-- <img class="header__img" src="./assets/svg/sac 2.png" alt="logo" /> -->
-        <a href="#projects" class="header__a">Proyectos</a>
-        <a href="#skills" class="header__a">Habilidades</a>
-        <a href="#about" class="header__a">Sobre Mí</a>
-        <a href="#contact" class="header__a">Contacto</a>
-      </nav>
-
-      <section class="sections">
+      <section class="sections sections--santiago">
+        <nav class="nav">
+          <!-- <img class="nav__img" src="./assets/svg/sac 2.png" alt="logo" /> -->
+          <a href="#projects" class="nav__a">Proyectos</a>
+          <a href="#skills" class="nav__a">Habilidades</a>
+          <a href="#about" class="nav__a">Sobre Mí</a>
+          <a href="#contact" class="nav__a">Contacto</a>
+          <a
+            href="./assets/Santiago-Castillo.pdf"
+            target="_blank"
+            rel="noreferrer"
+            class="nav__a"
+            >Curriculum</a
+          >
+        </nav>
         <header class="home">
           <h1 class="home__title">Santiago</h1>
           <h2 class="home__title home___title--background">castillo</h2>
@@ -35,6 +41,7 @@
             src="./assets/image/yo animado degrades.png"
             alt="Santiago-Castillo-animado"
           />
+
           <div class="home__icons">
             <a href="mailto:santiagorodrigec@gmail.com" target="_blank">
               <img class="home__icon" src="./assets/svg/mail.svg" alt="se" />
@@ -66,200 +73,148 @@
               alt="Doggyklopedia"
             />
 
-            <header><h3 class="card__title">Doggyklopedia</h3></header>
-            <p class="card__p">
-              Aplicación web enfocada en proveer información detallada sobre las
-              distintas razas de perros en el mundo.
-            </p>
-            <div>
-              <a
-                href="https://github.com/ACastilloSantiago/Doggyklopedia"
-                target="_blank"
-                class="card__link"
-                rel="noreferrer"
-              >
-                Github →
-              </a>
-              <a
-                href="https://doggyklopedia.vercel.app/"
-                class="card__link card__link--second"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Web →
-              </a>
+            <header>
+              <h3 class="card__title">Doggyklopedia</h3>
+            </header>
+            <div class="card__container__content">
+              <p class="card__p">
+                Aplicación web enfocada en proveer información detallada sobre
+                las distintas razas de perros en el mundo.
+              </p>
             </div>
 
             <section class="icons">
               <article class="icon-container">
-                <img
-                  class="icon"
-                  src="./assets/svg/react.svg"
-                  alt="icono-react"
-                />
                 <span>React</span>
               </article>
 
               <article class="icon-container">
-                <img
-                  class="icon"
-                  src="./assets/svg/vite.svg"
-                  alt="icono-vite"
-                />
-
                 <span>Vite</span>
               </article>
 
               <article class="icon-container">
-                <img
-                  class="icon"
-                  src="./assets/svg/javascript.svg"
-                  alt="icono-javascript"
-                />
-
                 <span>JavaScript</span>
               </article>
 
               <article class="icon-container">
-                <img
-                  class="icon"
-                  src="./assets/svg/express.svg"
-                  alt="icono-express"
-                />
-
                 <span>Express</span>
               </article>
               <article class="icon-container">
-                <img
-                  class="icon"
-                  src="./assets/svg/redux.svg"
-                  alt="icono-redux"
-                />
-
                 <span>Redux</span>
               </article>
               <article class="icon-container">
-                <img
-                  class="icon"
-                  src="./assets/svg/postgresql.svg"
-                  alt="icono-postgresql"
-                />
-
                 <span>PostgreSQL</span>
               </article>
               <article class="icon-container">
-                <img
-                  class="icon"
-                  src="./assets/svg/sequelize.svg"
-                  alt="icono-sequelize"
-                />
-
                 <span>Sequelize</span>
               </article>
               <article class="icon-container">
-                <img
-                  class="icon"
-                  src="./assets/svg/node.svg"
-                  alt="icono-node"
-                />
                 <span>Node</span>
               </article>
               <article class="icon-container">
-                <img
-                  class="icon icon--small"
-                  src="./assets/svg/html.svg"
-                  alt="icono-html"
-                />
-
                 <span>HTML</span>
               </article>
               <article class="icon-container">
-                <img
-                  class="icon icon--small"
-                  src="./assets/svg/css.svg"
-                  alt="icono-css"
-                />
-
                 <span>CSS</span>
               </article>
             </section>
+            <div style="text-align: center">
+              <a
+                href="https://doggyklopedia.vercel.app/"
+                class="card__link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Página →
+              </a>
+              <a
+                href="https://github.com/ACastilloSantiago/Doggyklopedia"
+                target="_blank"
+                class="card__link card__link--second"
+                rel="noreferrer"
+              >
+                Github →
+              </a>
+            </div>
           </article>
         </div>
       </section>
       <section id="skills" class="sections skills">
         <h2 class="sections__titles">Habilidades</h2>
-        <article class="icon-container">
-          <img class="icon" src="./assets/svg/react.svg" alt="icono-react" />
-          <span>React</span>
-        </article>
-        <article class="icon-container">
-          <img
-            class="icon"
-            src="./assets/svg/tailwind.svg"
-            alt="icono-tailwind"
-          />
-          <span>Tailwind</span>
-        </article>
-        <article class="icon-container">
-          <img class="icon" src="./assets/svg/vite.svg" alt="icono-vite" />
-          <span>Vite</span>
-        </article>
-        <article class="icon-container">
-          <img class="icon" src="./assets/svg/git.svg" alt="icono-git" />
-          <span>Git</span>
-        </article>
-        <article class="icon-container">
-          <img class="icon" src="./assets/svg/next.svg" alt="icono-next" />
-          <span>Next</span>
-        </article>
-        <article class="icon-container">
-          <img
-            class="icon"
-            src="./assets/svg/javascript.svg"
-            alt="icono-javascript"
-          />
-          <span>JavaScript</span>
-        </article>
-        <article class="icon-container icon-container--small">
-          <img class="icon" src="./assets/svg/html.svg" alt="icono-html" />
-          <span>HTML</span>
-        </article>
-        <article class="icon-container icon-container--small">
-          <img class="icon" src="./assets/svg/css.svg" alt="icono-css" />
-          <span>CSS</span>
-        </article>
-        <article class="icon-container">
-          <img
-            class="icon"
-            src="./assets/svg/express.svg"
-            alt="icono-express"
-          />
-          <span>Express</span>
-        </article>
-        <article class="icon-container">
-          <img class="icon" src="./assets/svg/redux.svg" alt="icono-redux" />
-          <span>Redux</span>
-        </article>
-        <article class="icon-container">
-          <img
-            class="icon"
-            src="./assets/svg/postgresql.svg"
-            alt="icono-postgresql"
-          />
-          <span>PostgreSQL</span>
-        </article>
-        <article class="icon-container">
-          <img
-            class="icon"
-            src="./assets/svg/sequelize.svg"
-            alt="icono-sequelize"
-          />
-          <span>Sequelize</span>
-        </article>
-        <article class="icon-container">
-          <img class="icon" src="./assets/svg/node.svg" alt="icono-node" />
-          <span>Node</span>
-        </article>
+        <section class="skills__container">
+          <article class="icon-container">
+            <img class="icon" src="./assets/svg/react.svg" alt="icono-react" />
+            <span>React</span>
+          </article>
+          <article class="icon-container">
+            <img
+              class="icon"
+              src="./assets/svg/tailwind.svg"
+              alt="icono-tailwind"
+            />
+            <span>Tailwind</span>
+          </article>
+          <article class="icon-container">
+            <img class="icon" src="./assets/svg/vite.svg" alt="icono-vite" />
+            <span>Vite</span>
+          </article>
+          <article class="icon-container">
+            <img class="icon" src="./assets/svg/git.svg" alt="icono-git" />
+            <span>Git</span>
+          </article>
+          <article class="icon-container">
+            <img class="icon" src="./assets/svg/next.svg" alt="icono-next" />
+            <span>Next</span>
+          </article>
+          <article class="icon-container">
+            <img
+              class="icon"
+              src="./assets/svg/javascript.svg"
+              alt="icono-javascript"
+            />
+            <span>JavaScript</span>
+          </article>
+          <article class="icon-container icon-container--small">
+            <img class="icon" src="./assets/svg/html.svg" alt="icono-html" />
+            <span>HTML</span>
+          </article>
+          <article class="icon-container icon-container--small">
+            <img class="icon" src="./assets/svg/css.svg" alt="icono-css" />
+            <span>CSS</span>
+          </article>
+          <article class="icon-container">
+            <img
+              class="icon"
+              src="./assets/svg/express.svg"
+              alt="icono-express"
+            />
+            <span>Express</span>
+          </article>
+          <article class="icon-container">
+            <img class="icon" src="./assets/svg/redux.svg" alt="icono-redux" />
+            <span>Redux</span>
+          </article>
+          <article class="icon-container">
+            <img
+              class="icon"
+              src="./assets/svg/postgresql.svg"
+              alt="icono-postgresql"
+            />
+            <span>PostgreSQL</span>
+          </article>
+          <article class="icon-container">
+            <img
+              class="icon"
+              src="./assets/svg/sequelize.svg"
+              alt="icono-sequelize"
+            />
+            <span>Sequelize</span>
+          </article>
+          <article class="icon-container">
+            <img class="icon" src="./assets/svg/node.svg" alt="icono-node" />
+            <span>Node</span>
+          </article>
+        </section>
       </section>
       <section id="about" class="sections about">
         <h2 class="sections__titles">Sobre Mí</h2>
