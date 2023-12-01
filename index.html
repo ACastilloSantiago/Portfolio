@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" href="./assets/image/sac-2.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="./assets/image/yo animado degrades.png"
+      type="image/x-icon"
+    />
     <title>Santiago Castillo</title>
   </head>
   <body>
-    <main id="home" class="container">
+    <main id="home" class="main">
       <nav class="header">
         <!-- <img class="header__img" src="./assets/svg/sac 2.png" alt="logo" /> -->
         <a href="#projects" class="header__a">Proyectos</a>
@@ -17,12 +21,40 @@
         <a href="#contact" class="header__a">Contacto</a>
       </nav>
 
-      <header class="sections home">
-        <h1 class="home__title">Santiago</h1>
-        <h2 class="home__title home___title--background">castillo</h2>
+      <section class="sections">
+        <header class="home">
+          <h1 class="home__title">Santiago</h1>
+          <h2 class="home__title home___title--background">castillo</h2>
 
-        <h3 class="home__sub__title">full stack developer</h3>
-      </header>
+          <h3 class="home__sub__title">full stack developer</h3>
+        </header>
+
+        <div class="home__container">
+          <img
+            class="home__img"
+            src="./assets/image/yo animado degrades.png"
+            alt="Santiago-Castillo-animado"
+          />
+          <div class="home__icons">
+            <a href="mailto:santiagorodrigec@gmail.com" target="_blank">
+              <img class="home__icon" src="./assets/svg/mail.svg" alt="se" />
+            </a>
+            <a href="https://github.com/ACastilloSantiago" target="_blank">
+              <img class="home__icon" src="./assets/svg/github.svg" alt="se" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/santiago-castillo-dev/"
+              target="_blank"
+            >
+              <img
+                class="home__icon"
+                src="./assets/svg/linkedin.svg"
+                alt="se"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
 
       <section id="projects" class="sections projects">
         <h2 class="sections__titles sections__titles--projects">Proyectos</h2>
@@ -173,8 +205,8 @@
           <span>Vite</span>
         </article>
         <article class="icon-container">
-          <span>Git</span>
           <img class="icon" src="./assets/svg/git.svg" alt="icono-git" />
+          <span>Git</span>
         </article>
         <article class="icon-container">
           <img class="icon" src="./assets/svg/next.svg" alt="icono-next" />

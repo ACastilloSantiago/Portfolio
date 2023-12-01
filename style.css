@@ -11,10 +11,11 @@ body {
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
 }
-.container {
+
+.main {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px repeat(5, 1fr);
+  grid-template-rows: 100px 1fr;
   background: #171321;
   /* height: 100vh; */
   /* align-items: flex-start; */
@@ -36,7 +37,8 @@ body {
   font-size: 1em;
 }
 .home {
-  margin-top: 40px;
+  /* !!! */
+  margin-top: 24px;
   /* overflow: hidden; */
 
   /* padding: 0 16px; */
@@ -50,7 +52,7 @@ body {
   text-align: center;
   text-shadow: -1px -1px 0 #c7b334, 1px -1px 0 #c7b334, -1px 1px 0 #c7b334,
     1px 1px 0 #c7b334;
-  /* line-height: 1; */
+  line-height: 0.95em;
 }
 .home___title--background {
   color: #171321;
@@ -68,12 +70,45 @@ body {
 
   /* line-height: 1; */
 }
+.home__container {
+  display: flex;
+  margin-top: 16px;
+  gap: 8px;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+.home__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2em;
+  gap: 8px;
+  /* flex-direction: column; */
+  height: 2.2em;
+}
+.home__icon {
+  width: 2em;
+}
+.home__icon:hover {
+  width: 2.2em;
+}
+.home__img {
+  background: #f7edb0;
+  display: inline-block;
+  border-radius: 50%;
+  width: 50%;
+}
 .projects {
   background: #0d314a;
   /* height: 100vh; */
 }
 .sections {
   padding: 16px;
+  width: 100%;
 }
 .sections__titles {
   text-align: center;
@@ -170,7 +205,15 @@ body {
   filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
+/* 
+.icon-container span {
+  filter: grayscale(0%);
 
+  background: #0d314a;
+
+  padding: 0.2em;
+  border-radius: 1px;
+} */
 .icon {
   width: 2em;
   height: auto;
