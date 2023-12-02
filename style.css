@@ -16,13 +16,14 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
+  /* max-width: 800px; */
 }
 .nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0 16px;
+  gap: 4px 24px;
   position: absolute;
   top: 16px;
   width: 100%;
@@ -236,6 +237,7 @@ body {
 }
 .icon-container {
   font-size: 1em;
+  font-weight: 600;
   padding: 8px;
   display: flex;
   gap: 8px;

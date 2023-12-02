@@ -10,6 +10,7 @@
       type="image/x-icon"
     />
     <title>Santiago Castillo</title>
+    <script defer src="./index.js"></script>
   </head>
   <body>
     <main id="home" class="main">
@@ -324,7 +325,23 @@
       <section id="contact" class="sections contact">
         <h2 class="sections__titles">Contacto</h2>
         <article class="card">
-          <img class="card__image" src="#" alt="Doggyklopedia" />
+          <!-- <img class="card__image" src="#" alt="Doggyklopedia" />
+          -->
+          <form action="" class="form" id="form">
+            <div class="form__section">
+              <label for="name">Nombre</label>
+              <input type="text" name="name" />
+            </div>
+            <div class="form__section">
+              <label for="email">Email</label>
+              <input type="text" name="email" />
+            </div>
+            <div class="form__section">
+              <label for="message">Mensaje</label>
+              <input type="text" name="message" />
+            </div>
+            <button type="submit" id="submit">Enviar</button>
+          </form>
         </article>
       </section>
     </main>
