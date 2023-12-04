@@ -324,25 +324,48 @@
       </section>
       <section id="contact" class="sections contact">
         <h2 class="sections__titles">Contacto</h2>
-        <article class="card">
-          <!-- <img class="card__image" src="#" alt="Doggyklopedia" />
+        <!-- <article class="card"> -->
+
+        <!-- <img class="card__image" src="#" alt="Doggyklopedia" />
           -->
-          <form action="" class="form" id="form">
-            <div class="form__section">
-              <label for="name">Nombre</label>
-              <input type="text" name="name" />
-            </div>
-            <div class="form__section">
-              <label for="email">Email</label>
-              <input type="text" name="email" />
-            </div>
-            <div class="form__section">
-              <label for="message">Mensaje</label>
-              <input type="text" name="message" />
-            </div>
-            <button type="submit" id="submit">Enviar</button>
-          </form>
-        </article>
+        <form class="form" id="form">
+          <div class="form__section">
+            <label for="name" class="form__label">Nombre</label>
+            <input
+              type="text"
+              name="name"
+              class="form__input"
+              required
+              autocomplete="off"
+              id="name"
+            />
+          </div>
+          <div class="form__section">
+            <label for="email" class="form__label">Email</label>
+            <input
+              type="email"
+              name="email"
+              class="form__input"
+              required
+              autocomplete="off"
+              id="email"
+            />
+          </div>
+          <div class="form__section">
+            <label for="message" class="form__label">Mensaje</label>
+            <!-- <input type="text" name="message" class="form__input" /> -->
+            <textarea
+              name="message"
+              cols="30"
+              rows="10"
+              class="form__input"
+            ></textarea>
+          </div>
+          <button type="submit" id="submit" class="form__button" required>
+            Enviar
+          </button>
+        </form>
+        <!-- </article> -->
       </section>
     </main>
   </body>
