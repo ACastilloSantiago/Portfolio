@@ -87,8 +87,6 @@ body {
   /* max-width: 800px; */
 }
 .nav {
-  justify-self: flex-start;
-  align-self: flex-start;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
