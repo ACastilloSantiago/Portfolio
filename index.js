@@ -1,5 +1,13 @@
 const $form = document.querySelector("#form");
-
+const $emailIcon = document.querySelector("#email-icon");
+$emailIcon.onclick = async () => {
+  try {
+    await navigator.clipboard.writeText("santiagorodrigrec@gmail.com");
+    window.alert("Correo copiado!");
+  } catch (error) {
+    console.log(error);
+  }
+};
 const handleForm = (event) => {
   event.preventDefault();
   const form = new FormData($form);

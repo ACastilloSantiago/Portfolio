@@ -29,11 +29,13 @@
             >Curriculum</a
           >
         </nav>
-        <header class="home">
-          <h1 class="home__title">Santiago</h1>
-          <h2 class="home__title home___title--background">castillo</h2>
+        <div class="home">
 
-          <h3 class="home__sub__title">full stack developer</h3>
+        <header class="header">
+          <h1 class="header__title">Santiago</h1>
+          <h2 class="header__title header___title--background">castillo</h2>
+
+          <h3 class="header__sub__title">full stack developer</h3>
         </header>
 
         <div class="home__container">
@@ -42,11 +44,19 @@
             src="./assets/image/yo animado degrades.png"
             alt="Santiago-Castillo-animado"
           />
-
+          <p class="home__parrafo"
+            >Fusiono código y creatividad para destacar en el mundo
+            digital.</span
+          >
           <div class="home__icons">
-            <a href="mailto:santiagorodrigec@gmail.com" target="_blank">
-              <img class="home__icon" src="./assets/svg/mail.svg" alt="se" />
-            </a>
+            <div>
+              <img
+                id="email-icon"
+                class="home__icon"
+                src="./assets/svg/mail.svg"
+                alt="se"
+              />
+            </div>
             <a href="https://github.com/ACastilloSantiago" target="_blank">
               <img class="home__icon" src="./assets/svg/github.svg" alt="se" />
             </a>
@@ -62,6 +72,8 @@
             </a>
           </div>
         </div>
+        </div>
+
       </section>
 
       <section id="projects" class="sections projects">
@@ -85,41 +97,41 @@
             </div>
 
             <section class="tags">
-              <article class="tags__tag">
+              <article class="tags__tag react">
                 <span>React</span>
               </article>
 
-              <article class="tags__tag">
+              <article class="tags__tag vite">
                 <span>Vite</span>
               </article>
 
-              <article class="tags__tag">
+              <article class="tags__tag javascript">
                 <span>JavaScript</span>
               </article>
 
-              <article class="tags__tag">
+              <article class="tags__tag express">
                 <span>Express</span>
               </article>
-              <article class="tags__tag">
+              <article class="tags__tag redux">
                 <span>Redux</span>
               </article>
-              <article class="tags__tag">
+              <article class="tags__tag postgresql">
                 <span>PostgreSQL</span>
               </article>
-              <article class="tags__tag">
-                <span>Sequelize</span>
-              </article>
-              <article class="tags__tag">
+              <article class="tags__tag node">
                 <span>Node</span>
               </article>
-              <article class="tags__tag">
+              <article class="tags__tag sequelize">
+                <span>Sequelize</span>
+              </article>
+              <article class="tags__tag html">
                 <span>HTML</span>
               </article>
-              <article class="tags__tag">
+              <article class="tags__tag css">
                 <span>CSS</span>
               </article>
             </section>
-            <div style="text-align: center">
+            <div class="card__links">
               <a
                 href="https://doggyklopedia.vercel.app/"
                 class="card__link"
@@ -141,12 +153,12 @@
           <article class="card">
             <img
               class="card__image"
-              src="./assets/image/Screenshot_1.png"
+              src="./assets/image/rick&morty.png"
               alt="Doggyklopedia"
             />
 
             <header>
-              <h3 class="card__title">Doggyklopedia</h3>
+              <h3 class="card__title">Rick & Morty</h3>
             </header>
             <div class="card__container__content">
               <p class="card__p">
@@ -156,51 +168,46 @@
             </div>
 
             <section class="tags">
-              <article class="tags__tag">
+              <article class="tags__tag react">
                 <span>React</span>
               </article>
 
-              <article class="tags__tag">
+              <article class="tags__tag vite">
                 <span>Vite</span>
               </article>
 
-              <article class="tags__tag">
+              <article class="tags__tag javascript">
                 <span>JavaScript</span>
               </article>
 
-              <article class="tags__tag">
+              <article class="tags__tag express">
                 <span>Express</span>
               </article>
-              <article class="tags__tag">
+              <article class="tags__tag redux">
                 <span>Redux</span>
               </article>
-              <article class="tags__tag">
+              <article class="tags__tag postgresql">
                 <span>PostgreSQL</span>
               </article>
-              <article class="tags__tag">
-                <span>Sequelize</span>
-              </article>
-              <article class="tags__tag">
+              <article class="tags__tag node">
                 <span>Node</span>
               </article>
-              <article class="tags__tag">
+              <article class="tags__tag sequelize">
+                <span>Sequelize</span>
+              </article>
+              <article class="tags__tag html">
                 <span>HTML</span>
               </article>
-              <article class="tags__tag">
+              <article class="tags__tag css">
                 <span>CSS</span>
               </article>
             </section>
-            <div style="text-align: center">
-              <a
-                href="https://doggyklopedia.vercel.app/"
-                class="card__link"
-                target="_blank"
-                rel="noreferrer"
-              >
+            <div class="card__links">
+              <a href="#" class="card__link" target="_blank" rel="noreferrer">
                 Página →
               </a>
               <a
-                href="https://github.com/ACastilloSantiago/Doggyklopedia"
+                href="https://github.com/ACastilloSantiago/rickandmorty"
                 target="_blank"
                 class="card__link card__link--second"
                 rel="noreferrer"
@@ -214,11 +221,11 @@
       <section id="skills" class="sections skills">
         <h2 class="sections__titles">Habilidades</h2>
         <section class="skills__container">
-          <article class="icon-container">
+          <article class="icon-container react">
             <img class="icon" src="./assets/svg/react.svg" alt="icono-react" />
             <span>React</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container tailwind">
             <img
               class="icon"
               src="./assets/svg/tailwind.svg"
@@ -226,19 +233,19 @@
             />
             <span>Tailwind</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container vite">
             <img class="icon" src="./assets/svg/vite.svg" alt="icono-vite" />
             <span>Vite</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container git">
             <img class="icon" src="./assets/svg/git.svg" alt="icono-git" />
             <span>Git</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container next">
             <img class="icon" src="./assets/svg/next.svg" alt="icono-next" />
             <span>Next</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container javascript">
             <img
               class="icon"
               src="./assets/svg/javascript.svg"
@@ -246,15 +253,15 @@
             />
             <span>JavaScript</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container html">
             <img class="icon" src="./assets/svg/html.svg" alt="icono-html" />
             <span>HTML</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container css">
             <img class="icon" src="./assets/svg/css.svg" alt="icono-css" />
             <span>CSS</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container express">
             <img
               class="icon"
               src="./assets/svg/express.svg"
@@ -262,11 +269,11 @@
             />
             <span>Express</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container redux">
             <img class="icon" src="./assets/svg/redux.svg" alt="icono-redux" />
             <span>Redux</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container postgresql">
             <img
               class="icon"
               src="./assets/svg/postgresql.svg"
@@ -274,7 +281,7 @@
             />
             <span>PostgreSQL</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container sequelize">
             <img
               class="icon"
               src="./assets/svg/sequelize.svg"
@@ -282,7 +289,7 @@
             />
             <span>Sequelize</span>
           </article>
-          <article class="icon-container">
+          <article class="icon-container node">
             <img class="icon" src="./assets/svg/node.svg" alt="icono-node" />
             <span>Node</span>
           </article>
@@ -324,10 +331,6 @@
       </section>
       <section id="contact" class="sections contact">
         <h2 class="sections__titles">Contacto</h2>
-        <!-- <article class="card"> -->
-
-        <!-- <img class="card__image" src="#" alt="Doggyklopedia" />
-          -->
         <form class="form" id="form">
           <div class="form__section">
             <label for="name" class="form__label">Nombre</label>
@@ -353,7 +356,7 @@
           </div>
           <div class="form__section">
             <label for="message" class="form__label">Mensaje</label>
-            <!-- <input type="text" name="message" class="form__input" /> -->
+
             <textarea
               name="message"
               cols="30"
@@ -365,7 +368,6 @@
             Enviar
           </button>
         </form>
-        <!-- </article> -->
       </section>
     </main>
   </body>
