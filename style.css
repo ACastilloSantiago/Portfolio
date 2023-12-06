@@ -84,7 +84,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  /* max-width: 800px; */
+  justify-items: center;
 }
 .nav {
   display: flex;
@@ -189,10 +189,19 @@ body {
   padding: 16px;
   background: #171321;
 
-  /* width: 100%; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.sections--santiago {
-  /* height: 100vh; */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+.santiago {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -211,6 +220,8 @@ body {
 }
 .projects {
   background: #0d314a;
+  /* width: 100vw; */
+  /* max-width: 100vw; */
 }
 .cards {
   display: flex;
@@ -366,7 +377,7 @@ body {
   background: none;
   border: none;
   border-bottom: 1px #ffffff96 solid;
-  padding: 4px;
+  padding: 4px 8px;
   color: #ffffffcc;
   transition: border 0.3s ease-in-out;
 }

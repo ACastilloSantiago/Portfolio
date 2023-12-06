@@ -13,70 +13,73 @@
     <script defer src="./index.js"></script>
   </head>
   <body>
-    <main id="home" class="main">
-      <section class="sections sections--santiago">
-        <nav class="nav">
-          <!-- <img class="nav__img" src="./assets/svg/sac 2.png" alt="logo" /> -->
-          <a href="#projects" class="nav__a">Proyectos</a>
-          <a href="#skills" class="nav__a">Habilidades</a>
-          <a href="#about" class="nav__a">Sobre Mí</a>
-          <a href="#contact" class="nav__a">Contacto</a>
-          <a
-            href="./assets/Santiago-Castillo.pdf"
-            target="_blank"
-            rel="noreferrer"
-            class="nav__a"
-            >Curriculum</a
-          >
-        </nav>
-        <div class="home">
+    <main class="main">
+      <section class="sections ">
+        <article class="container santiago">
+           <nav class="nav">
+                <a href="#projects" class="nav__a">Proyectos</a>
+                <a href="#skills" class="nav__a">Habilidades</a>
+                <a href="#about" class="nav__a">Sobre Mí</a>
+                <a href="#contact" class="nav__a">Contacto</a>
+                <a
+                  href="./assets/Santiago-Castillo.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="nav__a"
+                  >Curriculum</a
+                >
+          </nav>
+          <div class="home">
 
-        <header class="header">
-          <h1 class="header__title">Santiago</h1>
-          <h2 class="header__title header___title--background">castillo</h2>
+          <header class="header">
+            <h1 class="header__title">Santiago</h1>
+            <h2 class="header__title header___title--background">castillo</h2>
 
-          <h3 class="header__sub__title">full stack developer</h3>
-        </header>
+            <h3 class="header__sub__title">full stack developer</h3>
+          </header>
 
-        <div class="home__container">
-          <img
-            class="home__img"
-            src="./assets/image/yo animado degrades.png"
-            alt="Santiago-Castillo-animado"
-          />
-          <p class="home__parrafo"
-            >Fusiono código y creatividad para destacar en el mundo
-            digital.</span
-          >
-          <div class="home__icons">
-            <div>
-              <img
-                id="email-icon"
-                class="home__icon"
-                src="./assets/svg/mail.svg"
-                alt="se"
-              />
-            </div>
-            <a href="https://github.com/ACastilloSantiago" target="_blank">
-              <img class="home__icon" src="./assets/svg/github.svg" alt="se" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/santiago-castillo-dev/"
-              target="_blank"
+          <div class="home__container">
+            <img
+              class="home__img"
+              src="./assets/image/yo animado degrades.png"
+              alt="Santiago-Castillo-animado"
+            />
+            <p class="home__parrafo"
+              >Fusiono código y creatividad para destacar en el mundo
+              digital.</span
             >
-              <img
-                class="home__icon"
-                src="./assets/svg/linkedin.svg"
-                alt="se"
-              />
-            </a>
+            <div class="home__icons">
+              <div>
+                <img
+                  id="email-icon"
+                  class="home__icon"
+                  src="./assets/svg/mail.svg"
+                  alt="se"
+                />
+              </div>
+              <a href="https://github.com/ACastilloSantiago" target="_blank">
+                <img class="home__icon" src="./assets/svg/github.svg" alt="se" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/santiago-castillo-dev/"
+                target="_blank"
+              >
+                <img
+                  class="home__icon"
+                  src="./assets/svg/linkedin.svg"
+                  alt="se"
+                />
+              </a>
+            </div>
           </div>
-        </div>
-        </div>
+          </div>
+        </article>
 
       </section>
 
       <section id="projects" class="sections projects">
+                <article class="container">
+
         <h2 class="sections__titles sections__titles--projects">Proyectos</h2>
         <div class="cards">
           <article class="card">
@@ -95,7 +98,6 @@
                 las distintas razas de perros en el mundo.
               </p>
             </div>
-
             <section class="tags">
               <article class="tags__tag react">
                 <span>React</span>
@@ -217,8 +219,12 @@
             </div>
           </article>
         </div>
+          </article>
+
       </section>
       <section id="skills" class="sections skills">
+                  <article class="container">
+
         <h2 class="sections__titles">Habilidades</h2>
         <section class="skills__container">
           <article class="icon-container react">
@@ -294,8 +300,11 @@
             <span>Node</span>
           </article>
         </section>
+      </article>
       </section>
       <section id="about" class="sections about">
+                  <article class="container">
+
         <h2 class="sections__titles">Sobre Mí</h2>
         <article class="about__container_p">
           <p class="about__p">
@@ -328,8 +337,11 @@
             competente en el desarrollo web, ¡Soy tu candidato!
           </p>
         </article>
+                  </article>
       </section>
       <section id="contact" class="sections contact">
+                  <article class="container">
+
         <h2 class="sections__titles">Contacto</h2>
         <form class="form" id="form">
           <div class="form__section">
@@ -368,6 +380,7 @@
             Enviar
           </button>
         </form>
+                  </article>
       </section>
     </main>
   </body>
