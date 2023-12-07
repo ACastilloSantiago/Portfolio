@@ -248,7 +248,7 @@ body {
 .sections__titles {
   text-align: center;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 1.5em;
   margin-bottom: 16px;
 }
@@ -280,7 +280,7 @@ body {
 }
 .card__title {
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 1.3em;
   padding-top: 8px;
   text-align: center;
@@ -363,13 +363,14 @@ body {
 }
 
 .about__container_p {
-  padding: 16px 32px;
+  padding: 24px 40px;
   background: #171321;
-  border: 1px #961d6e solid;
+  border: 1px #ffffff91 solid;
   border-radius: 16px;
 }
 .about__p {
   color: #d3d0d0;
+  font-weight: 300;
 }
 .contact {
   display: flex;
@@ -591,10 +592,10 @@ body {
     margin-right: 24px;
   }
   .about__container_p {
-    width: 60%;
+    width: 70%;
   }
 
   .form {
-    width: 60%;
+    width: 70%;
   }
 }
