@@ -105,8 +105,9 @@ body {
   text-decoration: none;
   color: #ffffffd8;
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 1.2em;
   padding: 4px;
+  transition: scale 0.3s ease;
 }
 .nav__a:hover {
   /* color: #961d6e8f; */
@@ -174,15 +175,14 @@ body {
 .home__icons {
   display: flex;
   align-items: center;
-  justify-content: center;
-  /* width: 2em; */
+  justify-content: space-between;
   gap: 8px;
-  /* flex-direction: column; */
   height: 2.2em;
   margin-top: 8px;
 }
 .home__icon {
   width: 2.5em;
+  transition: scale 0.3s ease;
 }
 .home__icon:hover {
   /* width: 2.2em; */
@@ -191,10 +191,31 @@ body {
   cursor: pointer;
 }
 
+.home__cv {
+  text-align: center;
+  color: #ffffffc7;
+  background: #c7b334;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.home__cv:hover {
+  scale: 1;
+  border-radius: 10px;
+  padding: 6px;
+  color: #fff;
+}
+.home__container__img {
+  position: relative;
+}
 .home__img {
   background: #f7edb0;
   display: inline-block;
-  border-radius: 50%;
+  border-radius: 10px;
   width: 280px;
 }
 .sections {
