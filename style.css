@@ -192,6 +192,10 @@ body {
 }
 
 .home__cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
   text-align: center;
   color: #ffffffc7;
   background: #c7b334;
@@ -202,7 +206,9 @@ body {
   left: 0;
   transition: all 0.3s ease;
 }
-
+.home__download {
+  width: 1em;
+}
 .home__cv:hover {
   scale: 1;
   border-radius: 10px;
@@ -243,6 +249,8 @@ body {
 }
 .s {
   min-height: 100vh;
+  /* Este svh es small viewport height que sirve para que en celular utilice el viewport tomando en cuenta la barra de navegacion para que sea correcta la medida! */
+  min-height: 100svh;
 }
 
 .sections__titles {
