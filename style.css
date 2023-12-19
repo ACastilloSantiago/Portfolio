@@ -250,7 +250,7 @@ body {
 .s {
   min-height: 100vh;
   /* Este svh es small viewport height que sirve para que en celular utilice el viewport tomando en cuenta la barra de navegacion para que sea correcta la medida! */
-  min-height: 100svh;
+  min-height: 100dvh;
 }
 
 .sections__titles {
